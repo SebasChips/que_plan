@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="transparentWhite">#9AFFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#F2B1ED</color>
+    <color name="pinkTransparent">#A9F2B1ED</color>
+
+    <color name="purple">#DCD585D1</color>
+    <color name="yellow">#F3D59A</color>
+    <color name="Transparent">#00FFFFFF</color>
+
+
+
+</resources>

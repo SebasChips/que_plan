@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".LogIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
+
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/queplancircle" />
+
+
+
+        <EditText
+            android:id="@+id/nameSignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/pink"
+            android:textColorHint="@color/pink"
+            android:elevation="8dp"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Nombre(s)"
+            android:inputType="text"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/lastnameSignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Apellido(s)"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColor="@color/pink"
+            android:textColorHint="@color/pink"
+            android:elevation="8dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/pink"
+            android:textColorHint="@color/pink"
+            android:elevation="8dp"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Username"
+            android:inputType="text"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/emailSignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textColor="@color/pink"
+            android:textColorHint="@color/pink"
+            android:elevation="8dp"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/passwordSigin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="@color/pink"
+            android:textColorHint="@color/pink"
+            android:elevation="8dp"
+            android:textSize="20sp"  />
+
+        <Button
+            android:id="@+id/signinButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/yellow"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:padding="18dp"
+            android:text="Registrarse"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Ya tienes cuenta? ¡Inicia sesión!"
+            android:textColor="@color/pink"
+            android:textSize="18sp"
+            android:id="@+id/loginActivity"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
